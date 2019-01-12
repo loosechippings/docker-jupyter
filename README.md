@@ -1,6 +1,7 @@
 # Docker Jupyter
 
-Jupyer notebook image with additional python modules installed
+Jupyer notebook image with additional python modules installed:
+* elasticsearch
 
 ```bash
 docker build --tag jupyter .
