@@ -1,0 +1,9 @@
+version: '3'
+services:
+   jupyter:
+      build: ./docker
+      ports:
+         - 8888:8888
+      volumes:
+         - ~/repos/python:/home/jovyan/repos:rw
+      network_mode: host
